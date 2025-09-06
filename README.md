@@ -67,11 +67,11 @@ Permitir o bloquear dispositivos dinámicamente sin comprometer la estabilidad d
 
 ### ⚠️ Precaución:
 
-Bloquear todos los puertos USB puede desactivar teclados y mouse externos.
+<u>Bloquear todos los puertos USB puede desactivar teclados y mouse externos.</u>
 
 Siempre tener un teclado interno o Bluetooth activo antes de usar.
 
-No está diseñado para entornos críticos donde la pérdida de control del sistema pueda causar problemas.
+<u>No está diseñado para entornos críticos donde la pérdida de control del sistema pueda causar problemas.</u>
 
 ## Contribuciones
 
