@@ -1,8 +1,8 @@
-FIREWALL-USB-MACOS
+# FIREWALL-USB-MACOS
 
 Un proyecto para macOS que permite bloquear temporalmente dispositivos USB, como memorias y periféricos, protegiendo el sistema y controlando el acceso a los puertos de manera segura y configurable.
 
-⚔️ Características
+## Características
 
 Bloqueo temporal de todos los dispositivos USB o selectivos (memorias, mouse, etc.).
 
@@ -14,7 +14,7 @@ Uso de IOKit para la detección y manejo de dispositivos USB.
 
 Configuración de tiempos de bloqueo automáticos.
 
-⚔️ Requisitos
+## Requisitos
 
 macOS 10.15 o superior
 
@@ -24,19 +24,20 @@ Permisos de administrador (sudo)
 
 Xcode Command Line Tools (opcional para extensiones avanzadas)
 
-⚔️ Instalación
+## Instalación
 
 Clonar el repositorio:
 
+```
 git clone https://github.com/tuusuario/FIREWALL-USB-MACOS.git
 cd FIREWALL-USB-MACOS
-
+```
 
 Ejecutar el script principal:
-
+```
 sudo python3 firewall_usb.py
-
-⚔️ Uso
+```
+## Uso
 
 El script detecta dispositivos USB conectados.
 
@@ -52,7 +53,7 @@ Mouse USB
 
 Otros dispositivos HID sin afectar periféricos críticos
 
-⚔️ Integración con IOKit
+## Integración con IOKit
 
 FIREWALL-USB-MACOS utiliza IOKit para:
 
@@ -62,9 +63,9 @@ Obtener información de cada dispositivo (tipo, VendorID, ProductID).
 
 Permitir o bloquear dispositivos dinámicamente sin comprometer la estabilidad del sistema.
 
-⚔️ Advertencias
+## Advertencias
 
-⚠️ Precaución:
+### ⚠️ Precaución:
 
 Bloquear todos los puertos USB puede desactivar teclados y mouse externos.
 
@@ -72,7 +73,7 @@ Siempre tener un teclado interno o Bluetooth activo antes de usar.
 
 No está diseñado para entornos críticos donde la pérdida de control del sistema pueda causar problemas.
 
-⚔️ Contribuciones
+## Contribuciones
 
 Se aceptan contribuciones para:
 
@@ -82,6 +83,6 @@ Crear interfaces gráficas amigables
 
 Soporte para tiempos de bloqueo personalizados y reglas avanzadas
 
-⚔️ Licencia
+## Licencia
 
 Este proyecto está bajo la licencia MIT.
